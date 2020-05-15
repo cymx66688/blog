@@ -9,8 +9,21 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>不定时更新机器学习算法原理及实践</description>
-    <pubDate>Thu, 14 May 2020 09:39:19 GMT</pubDate>
+    <pubDate>Thu, 14 May 2020 10:39:54 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>test555</title>
+      <link>https://cymx66688.github.io/blog/2020/05/14/test555/</link>
+      <guid>https://cymx66688.github.io/blog/2020/05/14/test555/</guid>
+      <pubDate>Thu, 14 May 2020 10:39:54 GMT</pubDate>
+      <description>
+      
+      </description>
+      
+      
+      <comments>https://cymx66688.github.io/blog/2020/05/14/test555/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>test444</title>
@@ -69,19 +82,6 @@
       
       
       <comments>https://cymx66688.github.io/blog/2020/05/09/test-2/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://cymx66688.github.io/blog/2020/05/09/test-1/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/09/test-1/</guid>
-      <pubDate>Sat, 09 May 2020 06:53:59 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      
-      <comments>https://cymx66688.github.io/blog/2020/05/09/test-1/#disqus_thread</comments>
     </item>
     
   </channel>
