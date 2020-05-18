@@ -9,8 +9,25 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>不定时更新机器学习算法原理及实践</description>
-    <pubDate>Thu, 14 May 2020 10:39:54 GMT</pubDate>
+    <pubDate>Mon, 18 May 2020 02:58:56 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>有用的软件工具推荐</title>
+      <link>https://cymx66688.github.io/blog/2020/05/18/%E6%9C%89%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</link>
+      <guid>https://cymx66688.github.io/blog/2020/05/18/%E6%9C%89%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</guid>
+      <pubDate>Mon, 18 May 2020 02:37:25 GMT</pubDate>
+      <description>
+      
+        常用工具推荐
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>作为一名算法工程师，一些常用的工具是必不可少的，在这里我推荐一些我常用的工具供大家参考。</p><ol><li><p><strong>Typora编辑器</strong>， markdown编写完成即可以看到效果。</p><p><a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p></li></ol>]]></content:encoded>
+      
+      <comments>https://cymx66688.github.io/blog/2020/05/18/%E6%9C%89%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>test555</title>
@@ -19,8 +36,16 @@
       <pubDate>Thu, 14 May 2020 10:39:54 GMT</pubDate>
       <description>
       
+        
+        
+          &lt;p&gt;将6605条预测数据划分为&lt;code&gt;优生&lt;/code&gt;和&lt;code&gt;非优生&lt;/code&gt;，过滤出&lt;code&gt;非优生&lt;/code&gt;共5229条。采用IsolationForest算法。异常分值的计算公式为：&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=
+        
+      
       </description>
       
+      
+      <content:encoded><![CDATA[<p>将6605条预测数据划分为<code>优生</code>和<code>非优生</code>，过滤出<code>非优生</code>共5229条。采用IsolationForest算法。异常分值的计算公式为：</p><script type="math/tex; mode=display">s(x, n) = 2^{-\frac{E(h(x))}{c(n)}}</script><p>其中：<br>$c(n) = 2H(n-1)-(2(n-1)/n)$<br>$H(n-1)=ln(n-1)+0.5772156649$  </p><p>$E(h(x))$为树深度的平均值</p><p>当$E(h(x))→c(n)，s→0.5$;<br>当$E(h(x))→0，s→1$;<br>当$E(h(x))→n-1，s→0$; </p>]]></content:encoded>
       
       <comments>https://cymx66688.github.io/blog/2020/05/14/test555/#disqus_thread</comments>
     </item>
@@ -69,19 +94,6 @@
       
       
       <comments>https://cymx66688.github.io/blog/2020/05/14/test222/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://cymx66688.github.io/blog/2020/05/09/test-2/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/09/test-2/</guid>
-      <pubDate>Sat, 09 May 2020 07:31:15 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      
-      <comments>https://cymx66688.github.io/blog/2020/05/09/test-2/#disqus_thread</comments>
     </item>
     
   </channel>
