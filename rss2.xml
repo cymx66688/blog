@@ -9,13 +9,13 @@
     <atom:link href="/blog/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>不定时更新机器学习算法原理及实践</description>
-    <pubDate>Mon, 18 May 2020 03:22:40 GMT</pubDate>
+    <pubDate>Mon, 25 May 2020 01:52:58 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>有用的软件工具推荐</title>
-      <link>https://cymx66688.github.io/blog/2020/05/18/%E6%9C%89%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/18/%E6%9C%89%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</guid>
+      <title>算法工程师软件工具推荐</title>
+      <link>https://cymx66688.github.io/blog/2020/05/18/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</link>
+      <guid>https://cymx66688.github.io/blog/2020/05/18/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</guid>
       <pubDate>Mon, 18 May 2020 02:37:25 GMT</pubDate>
       <description>
       
@@ -24,76 +24,9 @@
       </description>
       
       
-      <content:encoded><![CDATA[<p>作为一名算法工程师，一些常用的工具是必不可少的，在这里我推荐一些我常用的工具供大家参考。</p><ol><li><p><strong>Typora编辑器</strong>， markdown编写完成即可以看到效果。</p><p><a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p></li></ol>]]></content:encoded>
+      <content:encoded><![CDATA[<h1 id="基本工具"><a href="#基本工具" class="headerlink" title="基本工具"></a>基本工具</h1><p>① PyCharm  <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/</a></p><p>② Jupyter  <a href="https://www.anaconda.com/products/individual" target="_blank" rel="noopener">https://www.anaconda.com/products/individual</a></p><p>③Navicat  <a href="https://pan.baidu.com/s/1xsqC19uUSJtMm7Cq6NgMZQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1xsqC19uUSJtMm7Cq6NgMZQ</a>  提取码：kzfp</p><p>④Xshell  <a href="https://pan.baidu.com/s/11yrXYoz2nn8mtE84h6zfEQ" target="_blank" rel="noopener">https://pan.baidu.com/s/11yrXYoz2nn8mtE84h6zfEQ</a>  提取码：zt58</p><p>⑤Notepad++  <a href="https://pan.baidu.com/s/1_Lfe8zNFV2VGHSga0SiwFg" target="_blank" rel="noopener">https://pan.baidu.com/s/1_Lfe8zNFV2VGHSga0SiwFg</a>  提取码：lfli</p><h1 id="辅助工具"><a href="#辅助工具" class="headerlink" title="辅助工具"></a>辅助工具</h1><h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><p>①幕布  <a href="http://mubu.com/" target="_blank" rel="noopener">http://mubu.com/</a></p><p>②XMind ZEN  <a href="https://pan.baidu.com/s/1f4d2XHum4l3ke30JgyDXxg" target="_blank" rel="noopener">https://pan.baidu.com/s/1f4d2XHum4l3ke30JgyDXxg</a>  提取码：zlxj</p><p>③MindMaster  <a href="https://pan.baidu.com/s/1EcYqgFmoXY3r1Uj8y6Wvqw" target="_blank" rel="noopener">https://pan.baidu.com/s/1EcYqgFmoXY3r1Uj8y6Wvqw</a>  提取码：dgs9</p><h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>Typora  <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p><p>优点：What You See Is What You Mean</p><h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><p>TeamViewer  <a href="https://pan.baidu.com/s/1ouH-uQLSCkZpyjmCWVhudQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1ouH-uQLSCkZpyjmCWVhudQ</a>  提取码：70xn</p>]]></content:encoded>
       
-      <comments>https://cymx66688.github.io/blog/2020/05/18/%E6%9C%89%E7%94%A8%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>test555</title>
-      <link>https://cymx66688.github.io/blog/2020/05/14/test555/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/14/test555/</guid>
-      <pubDate>Thu, 14 May 2020 10:39:54 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;将6605条预测数据划分为&lt;code&gt;优生&lt;/code&gt;和&lt;code&gt;非优生&lt;/code&gt;，过滤出&lt;code&gt;非优生&lt;/code&gt;共5229条。采用IsolationForest算法。异常分值的计算公式为：&lt;/p&gt;
-&lt;script type=&quot;math/tex; mode=
-        
-      
-      </description>
-      
-      
-      <content:encoded><![CDATA[<p>将6605条预测数据划分为<code>优生</code>和<code>非优生</code>，过滤出<code>非优生</code>共5229条。采用IsolationForest算法。异常分值的计算公式为：</p><script type="math/tex; mode=display">s(x, n) = 2^{-\frac{E(h(x))}{c(n)}}</script><p>其中：<br>$c(n) = 2H(n-1)-(2(n-1)/n)$<br>$H(n-1)=ln(n-1)+0.5772156649$  </p><p>$E(h(x))$为树深度的平均值</p><p>当$E(h(x))→c(n)，s→0.5$;<br>当$E(h(x))→0，s→1$;<br>当$E(h(x))→n-1，s→0$; </p>]]></content:encoded>
-      
-      <comments>https://cymx66688.github.io/blog/2020/05/14/test555/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>test444</title>
-      <link>https://cymx66688.github.io/blog/2020/05/14/test444/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/14/test444/</guid>
-      <pubDate>Thu, 14 May 2020 09:10:49 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;本文作者： Kelley&lt;br&gt;本文链接： &lt;a href=&quot;https://cymx66688.github.io/blog/2020/05/14/test444/&quot;&gt;https://cymx66688.github.io/blog/2020/05/14/test444/
-        
-      
-      </description>
-      
-      
-      <content:encoded><![CDATA[<p>本文作者： Kelley<br>本文链接： <a href="https://cymx66688.github.io/blog/2020/05/14/test444/">https://cymx66688.github.io/blog/2020/05/14/test444/</a><br>版权声明： 本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议。转载请注明出处！</p>]]></content:encoded>
-      
-      <comments>https://cymx66688.github.io/blog/2020/05/14/test444/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>test333</title>
-      <link>https://cymx66688.github.io/blog/2020/05/14/test333/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/14/test333/</guid>
-      <pubDate>Thu, 14 May 2020 09:07:40 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      
-      <comments>https://cymx66688.github.io/blog/2020/05/14/test333/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>test222</title>
-      <link>https://cymx66688.github.io/blog/2020/05/14/test222/</link>
-      <guid>https://cymx66688.github.io/blog/2020/05/14/test222/</guid>
-      <pubDate>Thu, 14 May 2020 09:06:09 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      
-      <comments>https://cymx66688.github.io/blog/2020/05/14/test222/#disqus_thread</comments>
+      <comments>https://cymx66688.github.io/blog/2020/05/18/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/#disqus_thread</comments>
     </item>
     
   </channel>
