@@ -18,8 +18,8 @@
   
     
     
-  <script src="/blog/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/blog/lib/pace/pace-theme-flash.min.css?v=1.0.2" rel="stylesheet">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-flash.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -47,7 +47,7 @@
 
   
   
-  <link href="/blog/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
 
 
 
@@ -55,21 +55,21 @@
 
 
 
-<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/blog/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=5.1.4">
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/blog/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
@@ -83,7 +83,7 @@
   
 
 
-  <link rel="alternate" href="/blog/rss2.xml" title="Kelley's blog" type="application/atom+xml" />
+  <link rel="alternate" href="/rss2.xml" title="Kelley's blog" type="application/atom+xml" />
 
 
 
@@ -93,34 +93,34 @@
 <meta name="description" content="该文作为深度学习篇的开篇介绍，对深度学习作一些简单概述，后续再具体介绍CNN、RNN、LSTM、GAN每个算法。在学习深度学习前，希望有机器学习的相关知识，可以更加容易理解。 人工智能、机器学习、深度学习的关系 上图通俗易懂地讲明了三者之间的关系。人工智能是广义的概念，它包含机器学习和深度学习，而机器学习包含深度学习。另一种方式讲述就是机器学习包括传统机器学习(如Logistics、Decisio">
 <meta property="og:type" content="article">
 <meta property="og:title" content="深度学习概述">
-<meta property="og:url" content="https://cymx66688.github.io/blog/2020/06/01/DLOverview/index.html">
+<meta property="og:url" content="https://cymx66688.github.io/2020/06/01/DLOverview/index.html">
 <meta property="og:site_name" content="Kelley&#39;s blog">
 <meta property="og:description" content="该文作为深度学习篇的开篇介绍，对深度学习作一些简单概述，后续再具体介绍CNN、RNN、LSTM、GAN每个算法。在学习深度学习前，希望有机器学习的相关知识，可以更加容易理解。 人工智能、机器学习、深度学习的关系 上图通俗易懂地讲明了三者之间的关系。人工智能是广义的概念，它包含机器学习和深度学习，而机器学习包含深度学习。另一种方式讲述就是机器学习包括传统机器学习(如Logistics、Decisio">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/AI%E3%80%81ML%E3%80%81DL%E5%85%B3%E7%B3%BB%E5%9B%BE.jpg">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/%E7%94%9F%E7%89%A9%E7%A5%9E%E7%BB%8F%E5%85%83.png">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/sigmoid.jpg">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/tanh.jpg">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/relu.png">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/leakyrelu.jpg">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/%E6%9B%B4%E5%AE%BDor%E6%9B%B4%E6%B7%B1.png">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/%E6%9B%B4%E5%AE%BDor%E6%9B%B4%E6%B7%B12.png">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.png">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/%E5%89%8D%E5%90%91%E4%BC%A0%E6%92%AD.png">
-<meta property="og:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/AI%E3%80%81ML%E3%80%81DL%E5%85%B3%E7%B3%BB%E5%9B%BE.jpg">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/%E7%94%9F%E7%89%A9%E7%A5%9E%E7%BB%8F%E5%85%83.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/sigmoid.jpg">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/tanh.jpg">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/relu.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/leakyrelu.jpg">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/%E6%9B%B4%E5%AE%BDor%E6%9B%B4%E6%B7%B1.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/%E6%9B%B4%E5%AE%BDor%E6%9B%B4%E6%B7%B12.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/%E5%89%8D%E5%90%91%E4%BC%A0%E6%92%AD.png">
+<meta property="og:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/%E5%A4%8D%E5%90%88%E5%87%BD%E6%95%B0.png">
 <meta property="article:published_time" content="2020-06-01T01:40:15.000Z">
-<meta property="article:modified_time" content="2020-06-01T01:54:59.369Z">
+<meta property="article:modified_time" content="2020-06-01T02:02:57.488Z">
 <meta property="article:author" content="Kelley">
 <meta property="article:tag" content="深度学习">
 <meta property="article:tag" content="算法">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/AI%E3%80%81ML%E3%80%81DL%E5%85%B3%E7%B3%BB%E5%9B%BE.jpg">
+<meta name="twitter:image" content="https://cymx66688.github.io/2020/06/01/DLOverview/AI%E3%80%81ML%E3%80%81DL%E5%85%B3%E7%B3%BB%E5%9B%BE.jpg">
 
 
 
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/blog/',
+    root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
@@ -143,7 +143,7 @@
 
 
 
-  <link rel="canonical" href="https://cymx66688.github.io/blog/2020/06/01/DLOverview/"/>
+  <link rel="canonical" href="https://cymx66688.github.io/2020/06/01/DLOverview/"/>
 
 
 
@@ -177,7 +177,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/blog/"  class="brand" rel="start">
+      <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Kelley's blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -205,7 +205,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/blog/" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -215,7 +215,7 @@
       
         
         <li class="menu-item menu-item-about">
-          <a href="/blog/about/" rel="section">
+          <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
@@ -225,7 +225,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/blog/tags/" rel="section">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -235,7 +235,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/blog/categories/" rel="section">
+          <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
@@ -245,7 +245,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/blog/archives/" rel="section">
+          <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
@@ -320,12 +320,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://cymx66688.github.io/blog/blog/2020/06/01/DLOverview/">
+    <link itemprop="mainEntityOfPage" href="https://cymx66688.github.io/2020/06/01/DLOverview/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Kelley">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/blog/images/avatar.jpg">
+      <meta itemprop="image" content="/images/avatar.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -365,7 +365,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-01T09:54:59+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-01T10:02:57+08:00">
                 2020-06-01
               </time>
             
@@ -384,7 +384,7 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/blog/categories/DL/" itemprop="url" rel="index">
+                  <a href="/categories/DL/" itemprop="url" rel="index">
                     <span itemprop="name">DL</span>
                   </a>
                 </span>
@@ -402,8 +402,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/blog/2020/06/01/DLOverview/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/blog/2020/06/01/DLOverview/" itemprop="commentCount"></span>
+                <a href="/2020/06/01/DLOverview/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2020/06/01/DLOverview/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -411,7 +411,7 @@
 
           
           
-             <span id="/blog/2020/06/01/DLOverview/" class="leancloud_visitors" data-flag-title="深度学习概述">
+             <span id="/2020/06/01/DLOverview/" class="leancloud_visitors" data-flag-title="深度学习概述">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -479,7 +479,7 @@
 
       
         <p>该文作为深度学习篇的开篇介绍，对深度学习作一些简单概述，后续再具体介绍CNN、RNN、LSTM、GAN每个算法。在学习深度学习前，希望有机器学习的相关知识，可以更加容易理解。</p>
-<h2 id="人工智能、机器学习、深度学习的关系"><a href="#人工智能、机器学习、深度学习的关系" class="headerlink" title="人工智能、机器学习、深度学习的关系"></a>人工智能、机器学习、深度学习的关系</h2><p><img src="/blog/blog/2020/06/01/DLOverview/AI、ML、DL关系图.jpg" alt="AI、ML、DL关系图" style="zoom:30%;"></p>
+<h2 id="人工智能、机器学习、深度学习的关系"><a href="#人工智能、机器学习、深度学习的关系" class="headerlink" title="人工智能、机器学习、深度学习的关系"></a>人工智能、机器学习、深度学习的关系</h2><p><img src="/2020/06/01/DLOverview/AI、ML、DL关系图.jpg" alt="AI、ML、DL关系图" style="zoom:30%;"></p>
 <p>上图通俗易懂地讲明了三者之间的关系。人工智能是广义的概念，它包含机器学习和深度学习，而机器学习包含深度学习。另一种方式讲述就是机器学习包括传统机器学习(如Logistics、DecisionTree等)和深度学习(如CNN、RNN等)。</p>
 <p>机器视觉(CV)和自然语言处理(NLP)是交叉的算法领域，深度学习、机器学习的知识都会运用到，因此，学习机器学习和深度学习的算法，了解底层原理在算法工作中是必不可少的一个环节。</p>
 <h2 id="深度学习的发展史"><a href="#深度学习的发展史" class="headerlink" title="深度学习的发展史"></a>深度学习的发展史</h2><ul>
@@ -503,7 +503,7 @@
 </li>
 </ul>
 <h2 id="神经网络的起源"><a href="#神经网络的起源" class="headerlink" title="神经网络的起源"></a>神经网络的起源</h2><p>神经网络分为浅层神经网络和深层神经网络，深层神经网络就是现在的深度学习。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/生物神经元.png" alt="生物神经元" style="zoom:50%;"></p>
+<p><img src="/2020/06/01/DLOverview/生物神经元.png" alt="生物神经元" style="zoom:50%;"></p>
 <p>神经网络的灵感来自于生物神经元。其有四个特性：</p>
 <ol>
 <li>每个神经元都是一个多输入单输出的信息处理单元； </li>
@@ -530,41 +530,41 @@
 </ul>
 <script type="math/tex; mode=display">\color{blue}\sigma(z)=\frac{1}{1+e^-z}</script><script type="math/tex; mode=display">\sigma(z)^\prime=\sigma(z)(1-\sigma(z))</script><p>优点：可将一个实数映射到(0, 1)之间，用作二分类。</p>
 <p>缺点：在z&lt;-5或z&gt;5时，导数趋于0，会导致梯度消失。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/sigmoid.jpg" alt="sigmoid" style="zoom:50%;"></p>
+<p><img src="/2020/06/01/DLOverview/sigmoid.jpg" alt="sigmoid" style="zoom:50%;"></p>
 <ul>
 <li><strong>tanh激活函数</strong></li>
 </ul>
 <script type="math/tex; mode=display">\color{blue}\tanh(x)=2\sigma(2x)-1=\frac{e^z-e^{-z}}{e^z+e^{-z}}</script><script type="math/tex; mode=display">\tanh(x)^\prime=1-\tanh(x)^2</script><p>优点：取值范围为[-1, 1]，在特征相差明显时效果会更好，在循环过程中会不断扩大特征效果。</p>
 <p>缺点：类似sigmoid函数，容易导致梯度消失。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/tanh.jpg" alt="tanh" style="zoom:70%;"></p>
+<p><img src="/2020/06/01/DLOverview/tanh.jpg" alt="tanh" style="zoom:70%;"></p>
 <ul>
 <li><strong>ReLU激活函数</strong></li>
 </ul>
 <script type="math/tex; mode=display">\color{blue}relu(z)=max(0,z)</script><p>当$z&gt;0$时，$relu(z)\prime=1$; 当$z\leq=0$时，$relu(z)\prime=0$</p>
 <p>优点：函数简单，反向求导时计算量少。</p>
 <p>缺点：当$z\leq=0$时，会出现梯度消失问题。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/relu.png" alt="relu" style="zoom:50%;"></p>
+<p><img src="/2020/06/01/DLOverview/relu.png" alt="relu" style="zoom:50%;"></p>
 <ul>
 <li><strong>Leaky ReLU激活函数</strong></li>
 </ul>
 <p>$\color{blue}leakyrelu(z)=max(0.01z, z)$</p>
 <p>优点：在ReLU的基础上，在$z\leq=0$时给予一个很小的权重，求导后结果很小，但是一个定值，不会出现梯度消失的问题，又结合了ReLU本身的优点。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/leakyrelu.jpg" alt="leakyrelu" style="zoom:50%;"></p>
+<p><img src="/2020/06/01/DLOverview/leakyrelu.jpg" alt="leakyrelu" style="zoom:50%;"></p>
 <h2 id="神经网络单层公式拆解"><a href="#神经网络单层公式拆解" class="headerlink" title="神经网络单层公式拆解"></a>神经网络单层公式拆解</h2><p>数学公式: $\vec{y}=\sigma(W\cdot\vec{x}+b)$</p>
 <p>$W\cdot\vec{x}$  升维/降维/放大/缩小/旋转</p>
 <p>$+b$  平移</p>
 <p>$\sigma$  弯曲/非线性</p>
-<h3 id="更宽-or-更深？"><a href="#更宽-or-更深？" class="headerlink" title="更宽 or 更深？"></a>更宽 or 更深？</h3><p><img src="/blog/blog/2020/06/01/DLOverview/更宽or更深.png" alt="更宽or更深"></p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/更宽or更深2.png" alt="更宽or更深2"></p>
+<h3 id="更宽-or-更深？"><a href="#更宽-or-更深？" class="headerlink" title="更宽 or 更深？"></a>更宽 or 更深？</h3><p><img src="/2020/06/01/DLOverview/更宽or更深.png" alt="更宽or更深"></p>
+<p><img src="/2020/06/01/DLOverview/更宽or更深2.png" alt="更宽or更深2"></p>
 <p>从上图结果中可以看到，在神经元总数相当的情况下，增加网络深度比增加网络宽度带来更强的网络表示能力，错误率也降低明显。</p>
 <p>深度和宽度对函数复杂度的贡献是不同的，深度的贡献呈指数级增长，宽度的贡献呈线性增长。</p>
 <p>$FC=\prod^d_{l=1}(\alpha\cdot\theta_l)^{\beta_l}$</p>
 <p>其中$\alpha$表示每层参数(宽度)对函数复杂度的贡献，$\theta$表示参数数量，$\beta$表示深度对函数复杂度的贡献，$\alpha$和$\beta$都是一个区间，即相同参数在不同数值下仍然有不同的复杂度。$d$表示深度，$l$表示第$l$层。</p>
 <h2 id="深度神经网络-DNN"><a href="#深度神经网络-DNN" class="headerlink" title="深度神经网络(DNN)"></a>深度神经网络(DNN)</h2><h3 id="DNN介绍"><a href="#DNN介绍" class="headerlink" title="DNN介绍"></a>DNN介绍</h3><p>DNN(Deep Neural Networks)是前馈神经网络，训练方法是BP算法。</p>
 <p>DNN内部的神经网络层分为三类，输入层、隐藏层、输出层。层与层之间是全连接，从局部来看还是一个线性关系$z=\Sigma_{i=1}^i{w_ix_i}+b$加上一个激活函数$\sigma(z)$。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/神经网络.png" alt="神经网络"></p>
+<p><img src="/2020/06/01/DLOverview/神经网络.png" alt="神经网络"></p>
 <h3 id="DNN前向传播"><a href="#DNN前向传播" class="headerlink" title="DNN前向传播"></a>DNN前向传播</h3><p>前向传播算法就是通过输入层$x_i$的输入计算隐藏层的输出，再将隐藏层的结果作为输入计算输出层的结果，即利用上一层的输出计算下一层的输出。</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/前向传播.png" alt="前向传播" style="zoom:40%;"></p>
+<p><img src="/2020/06/01/DLOverview/前向传播.png" alt="前向传播" style="zoom:40%;"></p>
 <p>以上图为例：$LayerL_1$是输入层，$LayerL_2$是隐藏层，$LayerL_3$是输出层。</p>
 <p>计算$LayerL_2$的输出$a_1^{(2)}$，$a_2^{(2)}$，$a_3^{(2)}$：</p>
 <script type="math/tex; mode=display">a_1^{(2)}=\sigma(z_1^{(2)})=\sigma(\sum_{k=1}^3{w_{1k}^{(2)}x_k}+b_1^{(2)})</script><script type="math/tex; mode=display">a_2^{(2)}=\sigma(z_2^{(2)})=\sigma(\sum_{k=1}^3{w_{2k}^{(2)}x_k}+b_2^{(2)})</script><script type="math/tex; mode=display">a_3^{(2)}=\sigma(z_3^{(2)})=\sigma(\sum_{k=1}^3{w_{3k}^{(2)}x_k}+b_3^{(2)})</script><p>计算$LayerL_3$的输出$a_1^{(3)}$:</p>
@@ -574,12 +574,11 @@
 <script type="math/tex; mode=display">a^l=\sigma(z^l)=\sigma(W^la^{l-1}+b^l)</script><h3 id="DNN反向传播"><a href="#DNN反向传播" class="headerlink" title="DNN反向传播"></a>DNN反向传播</h3><p>BP算法(Back Propagation)是由学习过程由信号的<strong>正向传播</strong>与<strong>误差的反向传播</strong>两个过程组成。由于多层前馈网络的训练经常采用误差反向传播算法，也常将多层前馈网络直接称为BP网络。</p>
 <p>反向传播，顾名思义就是根据已知的输出结果反向更新权重$W$。</p>
 <p>先拆解复合函数</p>
-<p><img src="/blog/blog/2020/06/01/DLOverview/复合函数.png" alt="复合函数"></p>
+<p><img src="/2020/06/01/DLOverview/复合函数.png" alt="复合函数"></p>
 <p>对复合函数链式求导</p>
 <script type="math/tex; mode=display">\frac{\partial{L}}{\partial{w_i}}=\frac{\partial{L}}{\partial{a}}\cdot\frac{\partial{a}}{\partial{z}}\cdot\frac{\partial{z}}{\partial{w_i}}</script><p>假设$L=\sum_{k=1}^c(a_k-y_k)^2$   $a(z)=\sigma(z)=\frac{1}{1+e^{-z}}$</p>
 <p>则求导为：</p>
-<p>$\frac{\partial{L}}{\partial{w_i}}=2(a-y)\cdot{a}(1-a)\cdot{x_i}$</p>
-<p>Sigmoid函数的特性是当z&gt;5时，$a(z)$趋于1，当z&lt;-5时，$a(z)$趋于0。从求导公式中可以看到当a=0或a=1时，导数为0，这也验证了sigmoid激活函数会出现梯度消失的原因。</p>
+<script type="math/tex; mode=display">\frac{\partial{L}}{\partial{w_i}}=2(a-y)\cdot{a}(1-a)\cdot{x_i}</script><p>Sigmoid函数的特性是当z&gt;5时，$a(z)$趋于1，当z&lt;-5时，$a(z)$趋于0。从求导公式中可以看到当a=0或a=1时，导数为0，这也验证了sigmoid激活函数会出现梯度消失的原因。</p>
 <h2 id="深度学习主流开发框架"><a href="#深度学习主流开发框架" class="headerlink" title="深度学习主流开发框架"></a>深度学习主流开发框架</h2><ul>
 <li>TensorFlow2.0(1.X版本有比较多的坑，建议学习2.0版本的TensorFlow)</li>
 <li>PyTorch</li>
@@ -633,7 +632,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="https://cymx66688.github.io/blog/2020/06/01/DLOverview/" title="深度学习概述">https://cymx66688.github.io/blog/2020/06/01/DLOverview/</a>
+    <a href="https://cymx66688.github.io/2020/06/01/DLOverview/" title="深度学习概述">https://cymx66688.github.io/2020/06/01/DLOverview/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -648,9 +647,9 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="tag"><i class="fa fa-tag"></i> 深度学习</a>
+            <a href="/tags/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/" rel="tag"><i class="fa fa-tag"></i> 深度学习</a>
           
-            <a href="/blog/tags/%E7%AE%97%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
+            <a href="/tags/%E7%AE%97%E6%B3%95/" rel="tag"><i class="fa fa-tag"></i> 算法</a>
           
         </div>
       
@@ -663,7 +662,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2020/05/18/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/" rel="next" title="算法工程师软件工具推荐">
+              <a href="/2020/05/18/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/" rel="next" title="算法工程师软件工具推荐">
                 <i class="fa fa-chevron-left"></i> 算法工程师软件工具推荐
               </a>
             
@@ -741,7 +740,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="/blog/images/avatar.jpg"
+                src="/images/avatar.jpg"
                 alt="Kelley" />
             
               <p class="site-author-name" itemprop="name">Kelley</p>
@@ -753,7 +752,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/blog/archives/%7C%7C%20archive">
+                <a href="/archives/%7C%7C%20archive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
@@ -765,7 +764,7 @@
               
               
               <div class="site-state-item site-state-categories">
-                <a href="/blog/categories/index.html">
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
@@ -776,7 +775,7 @@
               
               
               <div class="site-state-item site-state-tags">
-                <a href="/blog/tags/index.html">
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
@@ -787,7 +786,7 @@
 
           
             <div class="feed-link motion-element">
-              <a href="/blog/rss2.xml" rel="alternate">
+              <a href="/rss2.xml" rel="alternate">
                 <i class="fa fa-rss"></i>
                 RSS
               </a>
@@ -989,69 +988,69 @@
 
   
   
-    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="/blog/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script type="text/javascript" src="/blog/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
   
-    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/blog/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   
   
-    <script type="text/javascript" src="/blog/lib/canvas-nest/canvas-nest.min.js"></script>
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
-
-
-  
-
-
-  <script type="text/javascript" src="/blog/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/blog/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/blog/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/blog/js/src/post-details.js?v=5.1.4"></script>
-
 
 
   
 
 
-  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
 
 
 
@@ -1123,7 +1122,7 @@
     } else if (/json$/i.test(search_path)) {
       isXml = false;
     }
-    var path = "/blog/" + search_path;
+    var path = "/" + search_path;
     // monitor main search box;
 
     var onPopupClose = function (e) {
