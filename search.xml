@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>算法工程师软件工具推荐</title>
-    <url>/archives/tools/</url>
-    <content><![CDATA[<h1 id="基本工具"><a href="#基本工具" class="headerlink" title="基本工具"></a>基本工具</h1><p>① PyCharm  <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/</a></p>
-<p>② Jupyter  <a href="https://www.anaconda.com/products/individual" target="_blank" rel="noopener">https://www.anaconda.com/products/individual</a></p>
-<p>③Navicat  <a href="https://pan.baidu.com/s/1xsqC19uUSJtMm7Cq6NgMZQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1xsqC19uUSJtMm7Cq6NgMZQ</a>  提取码：kzfp</p>
-<p>④Xshell  <a href="https://pan.baidu.com/s/11yrXYoz2nn8mtE84h6zfEQ" target="_blank" rel="noopener">https://pan.baidu.com/s/11yrXYoz2nn8mtE84h6zfEQ</a>  提取码：zt58</p>
-<p>⑤Notepad++  <a href="https://pan.baidu.com/s/1_Lfe8zNFV2VGHSga0SiwFg" target="_blank" rel="noopener">https://pan.baidu.com/s/1_Lfe8zNFV2VGHSga0SiwFg</a>  提取码：lfli</p>
-<h1 id="辅助工具"><a href="#辅助工具" class="headerlink" title="辅助工具"></a>辅助工具</h1><h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><p>①幕布  <a href="http://mubu.com/" target="_blank" rel="noopener">http://mubu.com/</a></p>
-<p>②XMind ZEN  <a href="https://pan.baidu.com/s/1f4d2XHum4l3ke30JgyDXxg" target="_blank" rel="noopener">https://pan.baidu.com/s/1f4d2XHum4l3ke30JgyDXxg</a>  提取码：zlxj</p>
-<p>③MindMaster  <a href="https://pan.baidu.com/s/1EcYqgFmoXY3r1Uj8y6Wvqw" target="_blank" rel="noopener">https://pan.baidu.com/s/1EcYqgFmoXY3r1Uj8y6Wvqw</a>  提取码：dgs9</p>
-<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>Typora  <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p>
-<p>优点：What You See Is What You Mean</p>
-<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><p>TeamViewer  <a href="https://pan.baidu.com/s/1ouH-uQLSCkZpyjmCWVhudQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1ouH-uQLSCkZpyjmCWVhudQ</a>  提取码：70xn</p>
-]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>软件</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>深度学习概述</title>
-    <url>/archives/DLOverview/</url>
+    <url>/blog/archives/DLOverview/</url>
     <content><![CDATA[<p>该文作为深度学习篇的开篇介绍，对深度学习作一些简单概述，后续再具体介绍CNN、RNN、LSTM、GAN每个算法。在学习深度学习前，希望有机器学习的相关知识，可以更加容易理解。</p>
-<h2 id="人工智能、机器学习、深度学习的关系"><a href="#人工智能、机器学习、深度学习的关系" class="headerlink" title="人工智能、机器学习、深度学习的关系"></a>人工智能、机器学习、深度学习的关系</h2><p><img src="/archives/DLOverview/AI、ML、DL关系图.jpg" alt="AI、ML、DL关系图" style="zoom: 33%;"></p>
+<h2 id="人工智能、机器学习、深度学习的关系"><a href="#人工智能、机器学习、深度学习的关系" class="headerlink" title="人工智能、机器学习、深度学习的关系"></a>人工智能、机器学习、深度学习的关系</h2>
+<p><img src="/archives/DLOverview/AI、ML、DL关系图.jpg" alt="AI、ML、DL关系图" style="zoom: 33%;"></p>
 <p>上图通俗易懂地讲明了三者之间的关系。人工智能是广义的概念，它包含机器学习和深度学习，而机器学习包含深度学习。另一种方式讲述就是机器学习包括传统机器学习(如Logistics、DecisionTree等)和深度学习(如CNN、RNN等)。</p>
 <p>机器视觉(CV)和自然语言处理(NLP)是交叉的算法领域，深度学习、机器学习的知识都会运用到，因此，学习机器学习和深度学习的算法，了解底层原理在算法工作中是必不可少的一个环节。</p>
 <h2 id="深度学习的发展史"><a href="#深度学习的发展史" class="headerlink" title="深度学习的发展史"></a>深度学习的发展史</h2><ul>
@@ -153,12 +132,97 @@
 <li>深度神经网络（DNN）模型与前向传播算法 <a href="https://www.cnblogs.com/pinard/p/6418668.html" target="_blank" rel="noopener">https://www.cnblogs.com/pinard/p/6418668.html</a></li>
 </ol>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/blog/archives/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/blog/archives/test-1/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/blog/archives/test-2/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test222</title>
+    <url>/blog/archives/test222/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/blog/archives/test/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>test444</title>
+    <url>/blog/archives/test444/</url>
+    <content><![CDATA[<p>本文作者： Kelley<br>本文链接： <a href="https://cymx66688.github.io/blog/2020/05/14/test444/">https://cymx66688.github.io/blog/2020/05/14/test444/</a><br>版权声明： 本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议。转载请注明出处！</p>
+]]></content>
       <categories>
-        <category>DL</category>
+        <category>hexo博客</category>
       </categories>
       <tags>
-        <tag>深度学习</tag>
-        <tag>算法</tag>
+        <tag>hexo建站</tag>
+        <tag>hexo部署</tag>
+        <tag>github部署</tag>
+        <tag>个人博客</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>test555</title>
+    <url>/blog/archives/test555/</url>
+    <content><![CDATA[<p>将6605条预测数据划分为<code>优生</code>和<code>非优生</code>，过滤出<code>非优生</code>共5229条。采用IsolationForest算法。异常分值的计算公式为：</p>
+<script type="math/tex; mode=display">s(x, n) = 2^{-\frac{E(h(x))}{c(n)}}</script><p>其中：<br>$c(n) = 2H(n-1)-(2(n-1)/n)$<br>$H(n-1)=ln(n-1)+0.5772156649$  </p>
+<p>$E(h(x))$为树深度的平均值</p>
+<p>当$E(h(x))→c(n)，s→0.5$;<br>当$E(h(x))→0，s→1$;<br>当$E(h(x))→n-1，s→0$; </p>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+        <tag>机器学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法工程师软件工具推荐</title>
+    <url>/blog/archives/%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E5%B8%88%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90/</url>
+    <content><![CDATA[<h1 id="基本工具"><a href="#基本工具" class="headerlink" title="基本工具"></a>基本工具</h1><p>① PyCharm  <a href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/</a></p>
+<p>② Jupyter  <a href="https://www.anaconda.com/products/individual" target="_blank" rel="noopener">https://www.anaconda.com/products/individual</a></p>
+<p>③Navicat  <a href="https://pan.baidu.com/s/1xsqC19uUSJtMm7Cq6NgMZQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1xsqC19uUSJtMm7Cq6NgMZQ</a>  提取码：kzfp</p>
+<p>④Xshell  <a href="https://pan.baidu.com/s/11yrXYoz2nn8mtE84h6zfEQ" target="_blank" rel="noopener">https://pan.baidu.com/s/11yrXYoz2nn8mtE84h6zfEQ</a>  提取码：zt58</p>
+<p>⑤Notepad++  <a href="https://pan.baidu.com/s/1_Lfe8zNFV2VGHSga0SiwFg" target="_blank" rel="noopener">https://pan.baidu.com/s/1_Lfe8zNFV2VGHSga0SiwFg</a>  提取码：lfli</p>
+<h1 id="辅助工具"><a href="#辅助工具" class="headerlink" title="辅助工具"></a>辅助工具</h1><h2 id="思维导图"><a href="#思维导图" class="headerlink" title="思维导图"></a>思维导图</h2><p>①幕布  <a href="http://mubu.com/" target="_blank" rel="noopener">http://mubu.com/</a></p>
+<p>②XMind ZEN  <a href="https://pan.baidu.com/s/1f4d2XHum4l3ke30JgyDXxg" target="_blank" rel="noopener">https://pan.baidu.com/s/1f4d2XHum4l3ke30JgyDXxg</a>  提取码：zlxj</p>
+<p>③MindMaster  <a href="https://pan.baidu.com/s/1EcYqgFmoXY3r1Uj8y6Wvqw" target="_blank" rel="noopener">https://pan.baidu.com/s/1EcYqgFmoXY3r1Uj8y6Wvqw</a>  提取码：dgs9</p>
+<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>Typora  <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p>
+<p>优点：What You See Is What You Mean</p>
+<h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><p>TeamViewer  <a href="https://pan.baidu.com/s/1ouH-uQLSCkZpyjmCWVhudQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1ouH-uQLSCkZpyjmCWVhudQ</a>  提取码：70xn</p>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test333</title>
+    <url>/blog/archives/test333/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
